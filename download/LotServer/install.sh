@@ -18,7 +18,8 @@ echo '/var/swapx   swap   swap   default 0 0' >> /etc/fstab
 sudo yum install wget net-tools -y
 sudo echo 3 > /proc/sys/net/ipv4/tcp_fastopen
 sudo echo "net.ipv4.tcp_fastopen = 3" >>/etc/sysctl.conf
-rpm -ivh https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/kernel/kernel-3.10.0-327.el7.x86_64.rpm --force
+#rpm -ivh https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/kernel/kernel-3.10.0-327.el7.x86_64.rpm --force
+rpm -ivh https://github.com/MudNernst/MeowLove_AlibabaCloud-CentOS7-Pure-and-safe/raw/master/download/LotServer/kernel/kernel-3.10.0-327.el7.x86_64.rpm --force
 rpm -qa | grep kernel
 echo -e "\n\n\n"
 echo "---------------------------------------------------------------------------------------------------------------------"
