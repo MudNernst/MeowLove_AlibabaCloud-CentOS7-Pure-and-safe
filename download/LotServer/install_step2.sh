@@ -14,7 +14,8 @@ uname -r
 echo Press any key to continue! Exit with 'Ctrl'+'C' !
 echo -e "\n"
 sudo cd /root
-wget --no-check-certificate -qO /tmp/appex.sh "https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh" && bash /tmp/appex.sh 'install'
+#wget --no-check-certificate -qO /tmp/appex.sh "https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh" && bash /tmp/appex.sh 'install'
+wget --no-check-certificate -qO /tmp/appex.sh "https://raw.githubusercontent.com/MudNernst/0oVicero0_serverSpeeser_Install/master/appex.sh" && bash /tmp/appex.sh 'install'
 echo -e "\n\n\n"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "End to LotServer_install -step2 tool ! V1.5"
